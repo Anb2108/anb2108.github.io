@@ -1,0 +1,38 @@
+/* STYLE CHUNG */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.digital-cv-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
+.timeline {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--bs-blue);
+  color: var(--bs-blue);
+  font-weight: bold;
+  font-size: 40px;
+}
+/* GOAL STYLE */
+.icon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.timeline-content {
+  flex: 1 1 0;
+  border-bottom: 1px dotted #339af0;
+}
